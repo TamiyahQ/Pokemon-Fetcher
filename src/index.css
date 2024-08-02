@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&display=swap');
+
+body{
+  font-family: Poppins, sans-serif;
+  background-image: url('./images/Thumbnail.png');
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+}
+
+input{
+  margin: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px white solid;
+  width: 300px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:focus {
+  outline: none;
+  border: 2px white solid;
+}
+
+
+input:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+button{
+  padding: 7px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  border: 3px black solid;
+  width: 318px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:focus {
+  outline: none;
+  border: 3px black solid;
+}
+
+.custom-image{
+  padding: 100px;
+  border: 5px black solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
